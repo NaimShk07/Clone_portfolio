@@ -1,0 +1,515 @@
+/*****************Media query ******************/
+
+/*****************Home page and navbar ******************/
+
+@media (max-width:1000px) {
+    .nav-bar ul {
+        display: none;
+
+    }
+
+    .nav-bar a {
+        right: 50px;
+    }
+
+}
+
+@media (max-width:680px) {
+    .nav-bar a {
+        text-decoration: none;
+        margin-top: 20px;
+        position: absolute;
+        right: 100px;
+        color: white;
+        border: 2px solid white;
+        padding: 15px 20px;
+        display: none;
+    }
+
+    .nav-bar button {
+        margin-top: 20px;
+        position: absolute;
+        right: 50px;
+        color: white;
+        font-size: 27px;
+        background-color: transparent;
+        border: none;
+        display: block;
+    }
+
+    .nav-bar .logo {
+        height: 100%;
+        overflow: hidden;
+        margin-left: 0px;
+    }
+
+    .nav-bar a {
+        right: 50px;
+    }
+
+    .main {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        /* background-color: white; */
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .home-page .text {
+        width: 100%;
+    }
+
+    .home-page .text h1:first-child {
+        line-height: 50px;
+        position: relative;
+        letter-spacing: 10px;
+        margin-top: 100px;
+    }
+
+    .home-page .text h1 {
+        font-size: 80px;
+
+    }
+
+}
+
+@media (max-width:480px) {
+    .nav-bar .logo {
+        height: 80%;
+        overflow: hidden;
+        /* margin-left: 5px; */
+        position: relative;
+        top: -8px;
+        right: 20px;
+    }
+
+    .nav-bar button {
+        margin-top: 0px;
+        position: absolute;
+        right: 25px;
+        color: white;
+        font-size: 27px;
+        background-color: transparent;
+
+    }
+
+}
+
+/*****************Client page******************/
+
+@media (max-width:790px) {
+    .client-page {
+        padding: 70px 20px;
+        margin-bottom: 0px;
+        height: auto;
+        /* border: 2px solid white; */
+        width: 100%;
+        text-align: center;
+        color: white;
+        /* padding: 20px; */
+    }
+
+    .client-page #one_table {
+        display: none;
+    }
+
+    .client-page #two_table {
+        display: inline-block;
+    }
+
+    .client-page #two_table tr {}
+
+    .client-page table {
+        width: 80%;
+
+        font-size: 20px;
+        margin: 30px auto;
+    }
+}
+
+/*****************About page******************/
+@media (max-width:1280px) {
+    .about-page {
+        padding: 70px;
+
+        position: relative;
+
+    }
+
+    .about-page h2 {
+        font-size: 35px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+
+    }
+
+    .about-page .image-cube {
+        position: absolute;
+        z-index: -1;
+        bottom: -10px;
+        right: 10px;
+        width: 170px;
+    }
+
+    .btm-sec-container .image-cube2 {
+        display: none;
+    }
+
+    .bottom-sec {
+        padding: 70px;
+        padding-top: 10px;
+        width: 100%;
+        /* float: right; */
+        /* position: absolute; */
+        /* right: 0; */
+        text-align: left;
+        margin-top: 40px;
+
+    }
+
+    .bottom-sec p {
+        text-align: justify;
+
+    }
+
+}
+
+@media (max-width:650px) {
+    .bottom-sec .count .count-items {
+        margin-right: 15px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .bottom-sec .count .count-items .num {
+        font-size: 30px;
+    }
+
+    .bottom-sec .count .count-items i {
+        font-size: 25px;
+    }
+
+    .bottom-sec .count p {
+        text-align: center;
+    }
+}
+
+@media (max-width:480px) {
+    .about-page {
+        padding: 20px;
+
+        position: relative;
+        text-align: center;
+
+    }
+
+    .about-page h2 {
+        font-size: 25px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+
+    }
+
+    .about-page .image-cube {
+        position: absolute;
+        z-index: -1;
+        bottom: -10px;
+        right: 10px;
+        width: 100px;
+    }
+
+    .bottom-sec {
+        padding: 28px;
+    }
+
+    .bottom-sec .count .count-items {
+        margin-right: 10px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .bottom-sec .count .count-items .num {
+        font-size: 25px;
+    }
+
+    .bottom-sec .count .count-items i {
+        font-size: 20px;
+    }
+
+}
+
+/****************Yellow strips****************** */
+@media (max-width:1150px) {
+
+    .yellow-strips .strips {
+        background-color: #91ff00;
+        color: black;
+        padding: 5px 0;
+        font-size: 17px;
+        text-align: center;
+        font-weight: 900;
+        /* width: 150%; */
+        margin: 40px 0;
+        position: absolute;
+        width: 1500px;
+
+    }
+
+}
+
+@media (max-width:680px) {
+    .yellow-strips {
+
+        overflow: hidden;
+        margin-bottom: 50px;
+        position: relative;
+        height: 200px;
+        /* border: 2px solid white; */
+        transform: scale(1.3);
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .yellow-strips .strips {
+        background-color: #91ff00;
+        color: black;
+        padding: 5px 0;
+        font-size: 10px;
+        text-align: center;
+        font-weight: 900;
+        /* width: 150%; */
+        margin: 40px 0;
+        position: absolute;
+        width: 1500px;
+
+    }
+
+}
+
+/* ****************Service pages**************** */
+@media (max-width:650px) {
+    .service-page .heading .image1 {
+        display: none;
+    }
+
+    .service-page .heading .image2 {
+        width: 10%;
+        position: absolute;
+        bottom: 40px;
+        right: 100px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .service-page {
+        /* background-color: blue; */
+        position: relative;
+        height: 300px;
+        padding: 0 25px;
+        /* border: 2px solid white; */
+    }
+
+    .service-page .heading h3 {
+        font-size: 35px;
+        letter-spacing: 4px;
+    }
+
+    .service-page .heading .image2 {
+        display: none;
+    }
+}
+
+/* ****************Service pages  :  design**************** */
+@media (max-width:770px) {
+
+    .design p {
+        width: 100%;
+        float: right;
+        float: none;
+        margin: 45px 0;
+        color: gray;
+    }
+
+    .design table {
+        display: none;
+    }
+
+    .design table:last-child {
+        display: inline-block;
+
+    }
+
+    .design table tr td {
+        padding: 25px 15px;
+        width: 20%;
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width:550px) {
+
+    .design {
+        padding: 0 30px;
+
+    }
+
+    .development {
+        padding: 0 30px;
+
+    }
+}
+
+/* ****************Service pages  :  development**************** */
+@media (max-width:780px) {
+    .development img {
+        display: none;
+    }
+
+    .development p {
+        width: 100%;
+        float: right;
+        float: none;
+        margin: 45px 0;
+        color: gray;
+    }
+
+    .development table {
+        display: none;
+    }
+
+    .development table:last-child {
+        display: inline-block;
+
+    }
+
+    .development table tr td {
+        padding: 25px 15px;
+        width: 20%;
+        font-size: 17px;
+    }
+
+    .development table {
+        margin-bottom: 70px;
+    }
+
+}
+
+/* ****************Portfolio page**************** */
+@media (max-width:900px) {
+    .portfolio {
+        flex-direction: column;
+    }
+
+    .portfolio .right-port {
+        margin-top: 30px;
+    }
+
+    .strips-port {
+
+        padding: 4px 0;
+        font-size: 13px;
+        width: 850px;
+
+    }
+}
+
+@media (max-width:600px) {
+    .portfolio {
+        padding: 45px 40px;
+    }
+
+    .portfolio .left-port h2 {
+        font-size: 32px;
+        letter-spacing: 3px;
+    }
+
+    .portfolio .right-port {
+        margin-bottom: 30px;
+    }
+
+    .strips-port {
+
+        padding: 2px 0;
+        font-size: 10px;
+        width: 550px;
+
+    }
+}
+
+/* ****************Collabortion pages  :  development**************** */
+@media (max-width:780px) {
+    .collabortion {
+        padding: 30px 50px;
+
+    }
+
+    .collabortion h2 {
+        font-size: 60px;
+        letter-spacing: 5px;
+        line-height: 70px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width:550px) {
+    .collabortion {
+        padding: 20px 40px;
+        margin-bottom: 20px;
+
+    }
+
+    .collabortion h2 {
+        font-size: 38px;
+        letter-spacing: 5px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .collabortion .img1,
+    .collabortion .img2 {
+        display: none;
+    }
+
+    .collabortion button {
+
+        margin: 5px 10px;
+    }
+}
+
+/* **************Footer***************** */
+@media (max-width:780px) {
+    .footer {
+        width: 100%;
+        padding: 0 30px;
+        padding-bottom: 50px;
+        /* display: flex;
+        justify-content: space-between; */
+    }
+
+    .collabortion {
+
+        margin-bottom: 20px;
+
+    }
+
+    .footer .other-device {
+        display: none;
+    }
+
+    .footer .mobile {
+        display: block;
+    }
+
+}
