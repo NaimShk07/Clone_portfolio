@@ -291,6 +291,7 @@ body {
     padding-top: 50px;
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 .yellow-strips .strips {
@@ -460,6 +461,7 @@ body {
 
 .strips-port .strips {
     text-align: center;
+    color: black;
 
 }
 
@@ -572,9 +574,10 @@ body {
     aspect-ratio: 1;
     border-radius: 50%;
 }
-.footer .mobile .icons ul li:hover{
+
+.footer .mobile .icons ul li:hover {
     background-color: #91ff00;
-        color: black;
-        border: 2px solid #91ff00;
+    color: black;
+    border: 2px solid #91ff00;
 
 }
