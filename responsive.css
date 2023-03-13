@@ -74,6 +74,9 @@
         font-size: 80px;
 
     }
+    .home-page .mouse{
+        display: none;
+    }
 
 }
 
@@ -277,6 +280,7 @@
         padding-top: 50px;
         display: flex;
         justify-content: center;
+        color: black;
     }
 
     .yellow-strips .strips {
@@ -443,6 +447,7 @@
         padding: 2px 0;
         font-size: 10px;
         width: 550px;
+        color: black;
 
     }
 }
