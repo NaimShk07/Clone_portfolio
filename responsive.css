@@ -101,6 +101,12 @@
 
     }
 
+    .home-page .text h1 {
+        font-size: 60px;
+        letter-spacing: 5px;
+
+    }
+
 }
 
 /*****************Client page******************/
